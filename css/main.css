@@ -1,0 +1,53 @@
+body {
+  min-height: 100%;
+  background: #eeeeee;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  min-height: 100px;
+}
+
+.top section {
+  display: block;
+  background-color: lightgray;
+  font-size: 1.6em;
+  min-width: 250px;
+  border: 1px solid darkgrey;
+  line-height:100px;
+  text-align: center;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  min-height: 100px;
+}
+
+.middle section {
+  display: block;
+  background-color: lightgray;
+  font-size: 1.6em;
+  min-width: 250px;
+  border: 1px solid darkgrey;
+  line-height:100px;
+  text-align: center;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  min-height: 100px;
+  text-align: center;
+}
+
+.bottom section {
+  display: block;
+  background-color: lightgray;
+  font-size: 1.6em;
+  min-width: 250px;
+  border: 1px solid darkgrey;
+  line-height:100px;
+}
+
