@@ -1,6 +1,11 @@
 body {
-  min-height: 100%;
   background: #eeeeee;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
 }
 
 .top {
@@ -51,3 +56,34 @@ body {
   line-height:100px;
 }
 
+#hex {
+  position: relative;
+  z-index: 1;
+  display: block;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#hex:before, #hex:after {
+  position: absolute;
+  top: 15px;
+  width: 70px;
+  height: 70px;
+  content: '';
+  transform: perspective(45px);
+  transform: rotate(45deg);
+  border: 0;
+  #background-color: blue;
+}
+
+#hex:before {
+  left: -35px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#hex:after {
+  right: -35px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
